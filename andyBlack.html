@@ -7,37 +7,56 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Peralta&display=swap" rel="stylesheet">
         <style>
-            h1 {
-                color:red;
-                background-color:black;
-                font-family:Peralta;
-                text-align:center;
-                margin:auto;
-            }
-            div {
-                color:red;
-                background-color:black;
-                font-family:Peralta;
-                text-align: center;
+            body {
                 background-image: url("cross.jpg");
                 background-repeat: repeat; 
+                margin: 0px;
+                padding: 0px;
+            }
+            #title {
+                color: red;
+                background-color: black;
+                font-family: Peralta;
+                text-align: center;
+                font-size: 3em;
+                padding-bottom: 20px;
+                margin: auto;
+            }
+            #albums {
+                color: red;
+                font-family: Peralta;
+                text-align: center;
             }
             img {
                 width: 220px; 
                 length: 220px;
             }
+            #back {
+                height: 19px;
+                color: white;
+                text-decoration: none;
+                text-align: center;
+            }
+            #back:hover {
+                font-style: italic;
+            }
         </style>
     </head>
 
     <body>
-        <h1>Andy Black!</h1><br/>
+        <div id='title'>Andy Black!</div>
+        <div id='albums'>
         <!-- Album 1 - The Shadow Side -->
-        <div>
-        <a href='./shadowSide.html' /><img src='shadowSide.jpg' alt='The Shadow Side' /><br/></a>The Shadow Side<br/>May 6, 2016<br/><br/>
+        <a href='./shadowSide.html' /><img src='shadowSide.jpg' alt='The Shadow Side' /></a><br>
+        The Shadow Side<br>
+        May 6, 2016<br><br>
         <br>
         <!-- Album 2 - The Ghost of Ohio -->
-        <a href='./ghostOfOhio.html' /><img src='ghostOfOhio.jpg' alt='The Ghost of Ohio' /><br/></a>The Ghost of Ohio<br/>April 12, 2019<br/><br/>
+        <a href='./ghostOfOhio.html' /><img src='ghostOfOhio.jpg' alt='The Ghost of Ohio' /></a><br>
+        The Ghost of Ohio<br>
+        April 12, 2019<br><br>
+        <br>
         </div>
-        <a href='./../projects.html' />Go back to Projects Overview.</a>
+        <div id='back'><a id='back' href='./../projects.html' />Go back to Projects Overview.</a></div>
     </body>
 </html>
