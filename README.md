@@ -1,2 +1,2 @@
 # Andy-Black
-Andy Black Project
+I coded this myself and did it just for fun. Feel free to use any code.
